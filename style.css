@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+
+    background-image: linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)), url("https://cdn.discordapp.com/attachments/962665287491133460/1022819440586395838/20220715144117_1.jpg");
+    height: 1600%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+
+.topbutton ul{
+    float: right;
+    margin-top: 50px;
+    margin-left: 15px;
+
+}
+
+.topbutton ul li{
+    display: inline-block;
+}
+
+.topbutton ul li a{
+    text-decoration: solid;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    transition: 0.2s ease;
+}
+
+.topbutton ul li a:hover{
+    color: black;
+    background-color: #fff;
+}
+
+
+
+
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin-top: -10px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    position: absolute;
+    color: rgb(255, 0, 85);
+    font-size: 100px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%,-100%);
+}
+
+.rules{
+    position: absolute;
+    top: 800%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
